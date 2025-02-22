@@ -14,11 +14,13 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        // Lock the rotation of the Rigidbody2D to prevent tipping over
+        rb.freezeRotation = true;
     }
 
     void Update()
     {
-        // Check if player is grounded
+        // Check if the player is on the ground
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
 
         // Get movement input (horizontal axis only for 2D)
@@ -30,9 +32,10 @@ public class Player : MonoBehaviour
         // Apply movement to Rigidbody2D
         rb.linearVelocity = new Vector2(movement.x * moveSpeed, rb.linearVelocity.y);
 
-        // Jumping mechanic
+        // Jumping mechanic - Allow jump only when grounded
         if (isGrounded && Input.GetButtonDown("Jump"))
         {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0);  // Reset vertical velocity to ensure the player doesn't get a speed boost from multiple jumps
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
     }
