@@ -697,7 +697,30 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeathCaveExplorer-Sheet_0: 1977154692109835798
+      DeathCaveExplorer-Sheet_1: -8522905747588064404
+      DeathCaveExplorer-Sheet_10: -4466742203255477648
+      DeathCaveExplorer-Sheet_11: 4659202311317339701
+      DeathCaveExplorer-Sheet_12: 7528500206992136349
+      DeathCaveExplorer-Sheet_13: -6894823453108636517
+      DeathCaveExplorer-Sheet_14: -4145662498326971917
+      DeathCaveExplorer-Sheet_15: -412697321626928441
+      DeathCaveExplorer-Sheet_16: 6880425403233119838
+      DeathCaveExplorer-Sheet_17: -3285877134788438417
+      DeathCaveExplorer-Sheet_18: 5797871050085579028
+      DeathCaveExplorer-Sheet_19: -3976712468821941904
+      DeathCaveExplorer-Sheet_2: 3351191956301261101
+      DeathCaveExplorer-Sheet_20: 5068194041010221608
+      DeathCaveExplorer-Sheet_21: -8876891375218032169
+      DeathCaveExplorer-Sheet_22: 5016136977886163621
+      DeathCaveExplorer-Sheet_3: -3200556516114995198
+      DeathCaveExplorer-Sheet_4: 9195697736729199418
+      DeathCaveExplorer-Sheet_5: 8310268087888266305
+      DeathCaveExplorer-Sheet_6: 6716823284954368499
+      DeathCaveExplorer-Sheet_7: 782160520315245042
+      DeathCaveExplorer-Sheet_8: 6097356569443967854
+      DeathCaveExplorer-Sheet_9: -3084224470729982404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -247,7 +247,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      HurtCaveExplorer-Sheet_0: -8147370818528211730
+      HurtCaveExplorer-Sheet_1: -2273525353527444042
+      HurtCaveExplorer-Sheet_2: -594418914891767851
+      HurtCaveExplorer-Sheet_3: 6457890070995292216
+      HurtCaveExplorer-Sheet_4: -5719240988762081694
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
